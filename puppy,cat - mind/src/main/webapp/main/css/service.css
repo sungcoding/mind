@@ -1,0 +1,48 @@
+/* service.css */
+header #logomessage {
+           
+            margin: 70px 0 0 10px;
+            position: static;
+            font-family: "Raleway", sans-serif;
+        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.title-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.content {
+display: flex;
+gap: 80px; /* 왼쪽과 오른쪽 간격을 40px로 설정 /
+margin-bottom: 40px; / 간격을 더 넓게 조절 */
+}
+
+.service-section {
+    max-width: 600px; /* 길이를 조절할 수 있는 최대 너비 설정 */
+    margin-bottom: 50px;
+}
+
+.image-section {
+    width: 100%;
+    max-width: 550px; /* 이미지 너비 조절 가능 */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Add any additional styling as needed */

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* 오른쪽 상단에 위치 */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* 로그인, 회원가입, 후원하기 버튼 스타일링 */
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #34B680; /* 초록색 */
+}
+
+.signup-btn {
+    background-color: #34B680; /* 초록색 */
+}
+
+.donate-btn {
+    background-color: #800080; /* 보라색 */
+}

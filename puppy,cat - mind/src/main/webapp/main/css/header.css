@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* 수정된 부분: 위쪽 여백을 줄임 */
+}
+
+.logo {
+    color: #333;
+    font-size: 24px;
+}
+
+.donate-button {
+    margin-left: auto;
+}
